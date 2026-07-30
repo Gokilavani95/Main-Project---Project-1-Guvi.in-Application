@@ -8,31 +8,31 @@ The framework uses  Pytest for test execution and generates HTML reports for tes
 The framework follows the Page Object Model architecture to improve maintainability, readability, and scalability.
 Below is the structure of the Project created using POM,
 
+
 WebApplication_Project/
 │
+├── Page_locators/
+│   └── Locators.py
 │
-|----- Page_locators/
-│   		|----Locators.py
-│   
-|---------Reports/
-│		|── Homepage_Report.html
-│   		|── ValidLogin_Report.html
-│   		|── InvalidLogin_Report.html
-│   		|── Logout_Report.html
-│   		|── UI_Report.html
-│   		└── Chatbox_Report.html
+├── Reports/
+│   ├── Homepage_Report.html
+│   ├── ValidLogin_Report.html
+│   ├── InvalidLogin_Report.html
+│   ├── Logout_Report.html
+│   ├── UI_Report.html
+│   └── Chatbox_Report.html
 │
-|------test_validation/
-│   		|── __init__.py
-│   		|── test_validlogin_verification.py
-│   		|── test_invalidLogin_validation.py
-│   		|── test_homepage_menu_validation.py
-│   		|── test_logout_validation.py
-│   		|── test_UI_validation.py
-│  		└── test_Dobby_Assistant_validation.py
+├── test_validation/
+│   ├── __init__.py
+│   ├── test_validlogin_verification.py
+│   ├── test_invalidLogin_validation.py
+│   ├── test_homepage_menu_validation.py
+│   ├── test_logout_validation.py
+│   ├── test_UI_validation.py
+│   └── test_Dobby_Assistant_validation.py
 │
-|------ conftest.py
-|------ main.py
+├── conftest.py
+├── main.py
 └── README.md
 
 
